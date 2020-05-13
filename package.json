@@ -1,6 +1,6 @@
 {
   "name": "@jlengstorf/get-twitch-oauth",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
   "license": "MIT",
