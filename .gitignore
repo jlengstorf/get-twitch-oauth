@@ -1,0 +1,7 @@
+.env
+!.env.EXAMPLE
+
+node_modules
+
+index.js
+index.d.ts

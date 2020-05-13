@@ -1,0 +1,28 @@
+{
+  "name": "@jlengstorf/get-twitch-oauth",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/get-twitch-oauth"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts --outDir . -d",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts"
+}
