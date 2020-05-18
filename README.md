@@ -27,7 +27,7 @@ const { getTwitchAccessToken } = require('@jlengstorf/get-twitch-oauth');
 const { access_token } = getTwitchAccessToken();
 ```
 
-For a more complete example, see `example.js`.
+For a more complete example, see `demo/index.js`.
 
 ## API
 

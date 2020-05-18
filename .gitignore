@@ -5,3 +5,4 @@ node_modules
 
 index.js
 index.d.ts
+!demo/index.js
